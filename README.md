@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-    <a href="https://github.com/pocketbase/pocketbase/actions/workflows/release.yaml" target="_blank" rel="noopener"><img src="https://github.com/pocketbase/pocketbase/actions/workflows/release.yaml/badge.svg" alt="build" /></a>
-    <a href="https://github.com/pocketbase/pocketbase/releases" target="_blank" rel="noopener"><img src="https://img.shields.io/github/release/pocketbase/pocketbase.svg" alt="Latest releases" /></a>
-    <a href="https://pkg.go.dev/github.com/pocketbase/pocketbase" target="_blank" rel="noopener"><img src="https://godoc.org/github.com/pocketbase/pocketbase?status.svg" alt="Go package documentation" /></a>
+    <a href="https://github.com/pocketbase/pocketbase/actions/workflows/release.yaml" target="_blank" rel="noopener"><img src="https://github.com/tabshift-gh/pocketbase/actions/workflows/release.yaml/badge.svg" alt="build" /></a>
+    <a href="https://github.com/tabshift-gh/pocketbase/releases" target="_blank" rel="noopener"><img src="https://img.shields.io/github/release/tabshift-gh/pocketbase.svg" alt="Latest releases" /></a>
+    <a href="https://pkg.go.dev/github.com/pocketbase/pocketbase" target="_blank" rel="noopener"><img src="https://godoc.org/github.com/tabshift-gh/pocketbase?status.svg" alt="Go package documentation" /></a>
 </p>
 
 [PocketBase](https://pocketbase.io) is an open source Go backend that includes:
@@ -16,6 +16,12 @@
 - built-in **files and users management**
 - convenient **Admin dashboard UI**
 - and simple **REST-ish API**
+
+> [!NOTE]
+> This is a fork of the great [pocketbase/pocketbase][] repository adapted for
+> Tabshift's purposes.
+
+[pocketbase/pocketbase]: https://github.com/pocketbase/pocketbase
 
 **For documentation and examples, please visit https://pocketbase.io/docs.**
 
@@ -31,7 +37,6 @@ The easiest way to interact with the PocketBase Web APIs is to use one of the of
 - **Dart - [pocketbase/dart-sdk](https://github.com/pocketbase/dart-sdk)** (_Web, Mobile, Desktop, CLI_)
 
 You could also check the recommendations in https://pocketbase.io/docs/how-to-use/.
-
 
 ## Overview
 
@@ -52,33 +57,34 @@ Here is a minimal example:
 0. [Install Go 1.25+](https://go.dev/doc/install) (_if you haven't already_)
 
 1. Create a new project directory with the following `main.go` file inside it:
-    ```go
-    package main
 
-    import (
-        "log"
+   ```go
+   package main
 
-        "github.com/pocketbase/pocketbase"
-        "github.com/pocketbase/pocketbase/core"
-    )
+   import (
+       "log"
 
-    func main() {
-        app := pocketbase.New()
+       "github.com/pocketbase/pocketbase"
+       "github.com/pocketbase/pocketbase/core"
+   )
 
-        app.OnServe().BindFunc(func(se *core.ServeEvent) error {
-            // registers new "GET /hello" route
-            se.Router.GET("/hello", func(re *core.RequestEvent) error {
-                return re.String(200, "Hello world!")
-            })
+   func main() {
+       app := pocketbase.New()
 
-            return se.Next()
-        })
+       app.OnServe().BindFunc(func(se *core.ServeEvent) error {
+           // registers new "GET /hello" route
+           se.Router.GET("/hello", func(re *core.RequestEvent) error {
+               return re.String(200, "Hello world!")
+           })
 
-        if err := app.Start(); err != nil {
-            log.Fatal(err)
-        }
-    }
-    ```
+           return se.Next()
+       })
+
+       if err := app.Start(); err != nil {
+           log.Fatal(err)
+       }
+   }
+   ```
 
 2. To init the dependencies, run `go mod init myapp && go mod tidy`.
 
