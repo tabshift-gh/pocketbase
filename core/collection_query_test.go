@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/list"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tests"
+	"github.com/tabshift-gh/pocketbase/tools/list"
 )
 
 func TestCollectionQuery(t *testing.T) {

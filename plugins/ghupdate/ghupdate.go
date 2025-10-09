@@ -21,9 +21,9 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/archive"
-	"github.com/pocketbase/pocketbase/tools/osutils"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tools/archive"
+	"github.com/tabshift-gh/pocketbase/tools/osutils"
 	"github.com/spf13/cobra"
 )
 

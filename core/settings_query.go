@@ -7,8 +7,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/tools/security"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 )
 
 type Param struct {

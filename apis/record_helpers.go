@@ -9,13 +9,13 @@ import (
 	"time"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/mails"
-	"github.com/pocketbase/pocketbase/tools/router"
-	"github.com/pocketbase/pocketbase/tools/routine"
-	"github.com/pocketbase/pocketbase/tools/search"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/mails"
+	"github.com/tabshift-gh/pocketbase/tools/router"
+	"github.com/tabshift-gh/pocketbase/tools/routine"
+	"github.com/tabshift-gh/pocketbase/tools/search"
+	"github.com/tabshift-gh/pocketbase/tools/security"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 )
 
 const (

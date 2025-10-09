@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 )
 
 func TestParseJSONRaw(t *testing.T) {

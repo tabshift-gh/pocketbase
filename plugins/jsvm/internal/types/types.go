@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/plugins/jsvm"
-	"github.com/pocketbase/pocketbase/tools/list"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/plugins/jsvm"
+	"github.com/tabshift-gh/pocketbase/tools/list"
 	"github.com/pocketbase/tygoja"
 )
 
@@ -1291,14 +1291,14 @@ func main() {
 		Packages: map[string][]string{
 			"github.com/pocketbase/ozzo-validation/v4":          {"Error"},
 			"github.com/pocketbase/dbx":                         {"*"},
-			"github.com/pocketbase/pocketbase/tools/security":   {"*"},
-			"github.com/pocketbase/pocketbase/tools/filesystem": {"*"},
-			"github.com/pocketbase/pocketbase/tools/template":   {"*"},
-			"github.com/pocketbase/pocketbase/mails":            {"*"},
-			"github.com/pocketbase/pocketbase/apis":             {"*"},
-			"github.com/pocketbase/pocketbase/core":             {"*"},
-			"github.com/pocketbase/pocketbase/forms":            {"*"},
-			"github.com/pocketbase/pocketbase":                  {"*"},
+			"github.com/tabshift-gh/pocketbase/tools/security":   {"*"},
+			"github.com/tabshift-gh/pocketbase/tools/filesystem": {"*"},
+			"github.com/tabshift-gh/pocketbase/tools/template":   {"*"},
+			"github.com/tabshift-gh/pocketbase/mails":            {"*"},
+			"github.com/tabshift-gh/pocketbase/apis":             {"*"},
+			"github.com/tabshift-gh/pocketbase/core":             {"*"},
+			"github.com/tabshift-gh/pocketbase/forms":            {"*"},
+			"github.com/tabshift-gh/pocketbase":                  {"*"},
 			"path/filepath":                                     {"*"},
 			"os":                                                {"*"},
 			"os/exec":                                           {"Command"},

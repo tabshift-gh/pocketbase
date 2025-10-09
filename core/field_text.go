@@ -10,8 +10,8 @@ import (
 
 	"github.com/pocketbase/dbx"
 	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core/validators"
-	"github.com/pocketbase/pocketbase/tools/security"
+	"github.com/tabshift-gh/pocketbase/core/validators"
+	"github.com/tabshift-gh/pocketbase/tools/security"
 	"github.com/spf13/cast"
 )
 

@@ -8,10 +8,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/apis"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/router"
+	"github.com/tabshift-gh/pocketbase/apis"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tests"
+	"github.com/tabshift-gh/pocketbase/tools/router"
 )
 
 func TestWrapStdHandler(t *testing.T) {

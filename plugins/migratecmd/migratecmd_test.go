@@ -7,11 +7,11 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/plugins/migratecmd"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/plugins/migratecmd"
+	"github.com/tabshift-gh/pocketbase/tests"
+	"github.com/tabshift-gh/pocketbase/tools/list"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 )
 
 func TestAutomigrateCollectionCreate(t *testing.T) {
@@ -202,8 +202,8 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/pocketbase/core"
-	m "github.com/pocketbase/pocketbase/migrations"
+	"github.com/tabshift-gh/pocketbase/core"
+	m "github.com/tabshift-gh/pocketbase/migrations"
 )
 
 func init() {
@@ -651,8 +651,8 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/pocketbase/core"
-	m "github.com/pocketbase/pocketbase/migrations"
+	"github.com/tabshift-gh/pocketbase/core"
+	m "github.com/tabshift-gh/pocketbase/migrations"
 )
 
 func init() {
@@ -1043,8 +1043,8 @@ package _test_migrations
 import (
 	"encoding/json"
 
-	"github.com/pocketbase/pocketbase/core"
-	m "github.com/pocketbase/pocketbase/migrations"
+	"github.com/tabshift-gh/pocketbase/core"
+	m "github.com/tabshift-gh/pocketbase/migrations"
 )
 
 func init() {

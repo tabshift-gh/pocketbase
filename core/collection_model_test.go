@@ -11,11 +11,11 @@ import (
 	"testing"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/hook"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tests"
+	"github.com/tabshift-gh/pocketbase/tools/dbutils"
+	"github.com/tabshift-gh/pocketbase/tools/hook"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 )
 
 func TestNewCollection(t *testing.T) {

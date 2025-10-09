@@ -10,9 +10,9 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v5"
-	"github.com/pocketbase/pocketbase/tools/auth/internal/jwk"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/tools/auth/internal/jwk"
+	"github.com/tabshift-gh/pocketbase/tools/security"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 	"github.com/spf13/cast"
 	"golang.org/x/oauth2"
 )

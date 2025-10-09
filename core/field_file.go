@@ -10,10 +10,10 @@ import (
 	"strings"
 
 	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core/validators"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/core/validators"
+	"github.com/tabshift-gh/pocketbase/tools/filesystem"
+	"github.com/tabshift-gh/pocketbase/tools/list"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 	"github.com/spf13/cast"
 )
 

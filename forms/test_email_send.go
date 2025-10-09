@@ -5,9 +5,9 @@ import (
 
 	validation "github.com/pocketbase/ozzo-validation/v4"
 	"github.com/pocketbase/ozzo-validation/v4/is"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/mails"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/mails"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 )
 
 const (

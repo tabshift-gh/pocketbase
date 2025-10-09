@@ -14,14 +14,14 @@ import (
 
 	"github.com/pocketbase/dbx"
 	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core/validators"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/hook"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/store"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/core/validators"
+	"github.com/tabshift-gh/pocketbase/tools/dbutils"
+	"github.com/tabshift-gh/pocketbase/tools/filesystem"
+	"github.com/tabshift-gh/pocketbase/tools/hook"
+	"github.com/tabshift-gh/pocketbase/tools/inflector"
+	"github.com/tabshift-gh/pocketbase/tools/list"
+	"github.com/tabshift-gh/pocketbase/tools/store"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 	"github.com/spf13/cast"
 )
 

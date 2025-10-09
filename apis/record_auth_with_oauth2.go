@@ -19,11 +19,11 @@ import (
 
 	"github.com/pocketbase/dbx"
 	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/auth"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/inflector"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tools/auth"
+	"github.com/tabshift-gh/pocketbase/tools/dbutils"
+	"github.com/tabshift-gh/pocketbase/tools/filesystem"
+	"github.com/tabshift-gh/pocketbase/tools/inflector"
 	"golang.org/x/oauth2"
 )
 

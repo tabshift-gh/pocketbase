@@ -4,9 +4,9 @@ import (
 	"net/http"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/router"
-	"github.com/pocketbase/pocketbase/tools/search"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tools/router"
+	"github.com/tabshift-gh/pocketbase/tools/search"
 )
 
 // bindLogsApi registers the request logs api endpoints.

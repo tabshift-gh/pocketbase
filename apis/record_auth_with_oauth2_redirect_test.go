@@ -8,10 +8,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/pocketbase/pocketbase/apis"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/subscriptions"
+	"github.com/tabshift-gh/pocketbase/apis"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tests"
+	"github.com/tabshift-gh/pocketbase/tools/subscriptions"
 )
 
 func TestRecordAuthWithOAuth2Redirect(t *testing.T) {

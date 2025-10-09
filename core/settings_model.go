@@ -15,12 +15,12 @@ import (
 
 	validation "github.com/pocketbase/ozzo-validation/v4"
 	"github.com/pocketbase/ozzo-validation/v4/is"
-	"github.com/pocketbase/pocketbase/core/validators"
-	"github.com/pocketbase/pocketbase/tools/cron"
-	"github.com/pocketbase/pocketbase/tools/hook"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/core/validators"
+	"github.com/tabshift-gh/pocketbase/tools/cron"
+	"github.com/tabshift-gh/pocketbase/tools/hook"
+	"github.com/tabshift-gh/pocketbase/tools/mailer"
+	"github.com/tabshift-gh/pocketbase/tools/security"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 )
 
 const (

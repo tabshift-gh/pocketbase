@@ -9,10 +9,10 @@ import (
 	"strings"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/search"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/tabshift-gh/pocketbase/tools/inflector"
+	"github.com/tabshift-gh/pocketbase/tools/search"
+	"github.com/tabshift-gh/pocketbase/tools/security"
+	"github.com/tabshift-gh/pocketbase/tools/types"
 	"github.com/spf13/cast"
 )
 

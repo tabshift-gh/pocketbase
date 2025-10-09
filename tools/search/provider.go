@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/routine"
+	"github.com/tabshift-gh/pocketbase/tools/dbutils"
+	"github.com/tabshift-gh/pocketbase/tools/inflector"
+	"github.com/tabshift-gh/pocketbase/tools/routine"
 	"golang.org/x/sync/errgroup"
 )
 

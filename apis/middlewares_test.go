@@ -4,9 +4,9 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/apis"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tests"
+	"github.com/tabshift-gh/pocketbase/apis"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tests"
 )
 
 func TestPanicRecover(t *testing.T) {

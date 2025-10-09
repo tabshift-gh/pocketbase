@@ -5,9 +5,9 @@ import (
 	"fmt"
 
 	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/security"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tools/filesystem"
+	"github.com/tabshift-gh/pocketbase/tools/security"
 )
 
 const (

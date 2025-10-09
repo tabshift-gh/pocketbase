@@ -5,7 +5,7 @@ import (
 	"fmt"
 
 	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/core"
 )
 
 func recordAuthWithOTP(e *core.RequestEvent) error {

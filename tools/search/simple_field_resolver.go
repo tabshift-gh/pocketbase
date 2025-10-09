@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/list"
+	"github.com/tabshift-gh/pocketbase/tools/inflector"
+	"github.com/tabshift-gh/pocketbase/tools/list"
 )
 
 type NullFallbackPreference int
