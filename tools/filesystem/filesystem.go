@@ -412,7 +412,6 @@ var inlineServeContentTypes = []string{
 
 // manualExtensionContentTypes is a map of file extensions to content types.
 var manualExtensionContentTypes = map[string]string{
-<<<<<<< HEAD
 	// https://github.com/whatwg/mimesniff/issues/7
 	".svg": "image/svg+xml",
 
@@ -421,11 +420,6 @@ var manualExtensionContentTypes = map[string]string{
 
 	// https://github.com/pocketbase/pocketbase/issues/6597
 	".js":  "text/javascript",
-=======
-	".svg": "image/svg+xml",   // (see https://github.com/whatwg/mimesniff/issues/7)
-	".css": "text/css",        // (see https://github.com/gabriel-vasile/mimetype/pull/113)
-	".js":  "text/javascript", // (see https://github.com/tabshift-gh/pocketbase/issues/6597)
->>>>>>> 795cd833 (adjust code to new repository)
 	".mjs": "text/javascript",
 
 	// https://github.com/pocketbase/pocketbase/discussions/7467

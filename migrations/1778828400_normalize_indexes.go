@@ -5,8 +5,8 @@ import (
 	"strings"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tools/dbutils"
 )
 
 // see https://github.com/pocketbase/pocketbase/issues/7689

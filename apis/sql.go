@@ -9,8 +9,8 @@ import (
 	"time"
 
 	validation "github.com/pocketbase/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/router"
+	"github.com/tabshift-gh/pocketbase/core"
+	"github.com/tabshift-gh/pocketbase/tools/router"
 )
 
 const (

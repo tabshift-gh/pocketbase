@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/tools/search"
+	"github.com/tabshift-gh/pocketbase/tools/search"
 )
 
 func TestMultiMatchSubqueryBuild(t *testing.T) {
